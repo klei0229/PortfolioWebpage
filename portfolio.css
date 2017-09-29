@@ -1,49 +1,68 @@
 
 header{
-	background-color:green;
+	width:100%;
+	background-color:#45acbc;
 	border:;
+	padding:1em;
 
 
 }
 p{
-	font-size:18px;
-	font-family:"Verdana";
-	
+	font-size:26px;
+	color:#f1e3dd;
 }
 
 body{
-
-	width:70em;
+	font-family:"Palatino Linotype","Book Antiqua",Palatino,serif;
+	width: 85em;
 	margin-left:auto;
 	margin-right:auto;
-	padding: ;
-	border:10em;
-	background:teal;
-	color:#000;
-	border:;
-
-
+	background-color:#7a3b2e;
 }
 
 footer{
 
-	background-color:grey;
-	height:50%;
+
+
 
 }
 
 h1{
-
-	font-size:36px;
+	font-size:34px;
+	color:#f1e3dd;
 }
 h2{
-
-	font-size:28px;
-
+	font-size:50px;
+	color:#f1e3dd;
 
 }
 
 #content{
-	padding: 4em;
-	background:white;
+	
+}
+
+#About{
+
+	background-color:#454140;
+	padding-left:6em;
+	padding-right:6em;
+	padding-top:1em;
+	padding-bottom:1em;
+}
+#Portfolio{
+
+	background-color:#bd5734;
+	padding-left:4em;
+	padding-right:4em;
+	padding-top:4em;
+	padding-bottom:4em;
+}
+
+#Contact{
+	background-color:#a79e84;
+	padding-left:4em;
+	padding-right:4em;
+	padding-top:4em;
+	padding-bottom:4em;
+
 }
