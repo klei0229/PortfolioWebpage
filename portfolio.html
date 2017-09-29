@@ -4,45 +4,47 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<title>Portfolio Page</title>
 </head>
+
+
+
 <body>
 <div class="container">
 
 	<div class="pageHeader">
-		<header style="height: 10vh; background-color: teal;">
+		<!-- <header style="height: 10vh ; background-color: teal;">
+		-->
 		<h1 class="text-right" style="margin-right:20px">portfolio</h1>
 		
 
 		<!-- links at top of page-->
-		<div class="">
-
-			<ul class="list-inline text-right" style="margin-right:20px">
-				<li class="list-inline-item">About</li>
-				<li class="list-inline-item">Portfolio</li>
-				<li class="list-inline-item">Contact</li>
+		<div>
+			<ul class="nav list-inline text-right" style="margin-right:20px">
+				<li class="nav-item"><a href="#About">About</a></li>
+				<li class="nav-item"><a href="#Portfolio">Portfolio</a></li>
+				<li class="nav-item"><a href="#Contact">Contact</a></li>
 			</ul>
 			</div>
-		</header>
 
 	
-	</div>
+	</div> 
 
 	<!-- About DIV-->
 	<div>
-		<h2>About</h2>
+		<h2 id="About"class="text-info">About</h2>
 		<p class="text-justify">Front-End Developr and UX/UI designer, with pratical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture.</p>
-		<p>Web Developer - User Experince Designer - Graphic Artist</p>
+		<p class="text-center">City College of New York - Computer Engineering Student - Class of 2018</p>
 	</div>
 
 	<!-- Portfolio DIV-->
 	<div>
-		<h2>Portfolio</h2>
+		<h2 id="Portfolio" class="text-info" >Portfolio</h2>
 		<p>Various Projects</p>
 		<!-- insert images -->
 	</div>
 
 	<!-- Contact DIV-->
 	<div>
-		<h2>Contact Me</h2>
+		<h2 id="Portfolio" class="text-info">Contact Me</h2>
 
 
 		<form action="/submit-message" id="messageForm">
@@ -58,17 +60,17 @@
 
 
 
-		<p>Want to get in touch with me? Be it to request more info about myself or my exeprience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.</p>
+		<p class="text-justify">Want to get in touch with me? Be it to request more info about myself or my exeprience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.</p>
 
 		
 	</div>
 
+	<header style="height: 10vh; background-color:white";>
 	<!-- Bottom of Page DIV-->
-	<h2>About this Page</h2>
-	<p>Made by Justin Sane.</p>
-	<h3>Around the Web</h3>
-	<p>qlip 2017. All Rights Reversed</p>
-
+	<h2 color="text-info">About this Page</h2>
+	<p>Made by Kevin Lei.</p>
+	<p>Portfolio Assignment CS476 Fall 2017. All Rights Reversed</p>
+	</header>
 </div>
 </body>
 
