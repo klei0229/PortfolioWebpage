@@ -1,23 +1,49 @@
 
 header{
-	background-color:lightblue;
-	width:100%;
+	background-color:green;
+	border:;
+
 
 }
 p{
 	font-size:18px;
-
+	font-family:"Verdana";
+	
 }
 
 body{
 
-	width:100%;
-	padding: 50px;
+	width:70em;
+	margin-left:auto;
+	margin-right:auto;
+	padding: ;
+	border:10em;
+	background:teal;
+	color:#000;
+	border:;
+
+
 }
 
 footer{
 
-	background-color:lightblue;
-	width:100%;
+	background-color:grey;
+	height:50%;
 
+}
+
+h1{
+
+	font-size:36px;
+}
+h2{
+
+	font-size:28px;
+
+
+}
+
+#content{
+	padding: 4em;
+	background:white;
 }

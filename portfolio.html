@@ -3,7 +3,9 @@
 <head>
 	
 	<link rel="stylesheet" type="text/css" href="portfolio.css">
-	<link rel="stylesheet" href="css/bootstrap.css">
+	
+	<!--<link rel="stylesheet" href="css/bootstrap.css">
+	-->
 
 
 	<title>Portfolio Page</title>
@@ -11,16 +13,11 @@
 
 
 
-<body >
-<header>
-<div class="container">
-
-	<div>
+<body>
+	<header>
 		<!-- <header style="height: 10vh ; background-color: teal;">
 		-->
-		<h1 class="text-right" style="margin-right:">portfolio</h1>
-		
-
+		<h1>Portfolio</h1>
 		<!-- links at top of page-->
 		<div>
 		<ul class="navbar-right list-inline">
@@ -29,49 +26,45 @@
 			<li class="list-inline-item"><a href="#Contact">Contact</a></li>
 		</ul>
 		</div>
-
-	
-	</div>
 	</header> 
 
-	<!-- About DIV-->
-	<div>
-		<h2 id="About"class="text-info">About</h2>
-		<p class="text-justify">
-		Senior Computer Engineering Student studying at City College of New York. Pratical knowledge in Programming Languages: C++, Java, Python and MatLab. Strong interest in Front-end Web Development 
-		</p>
-		<p class="text-center">City College of New York - Computer Engineering Student - Class of 2018</p>
-	</div>
 
-	<!-- Portfolio DIV-->
-	<div>
-		<h2 id="Portfolio" class="text-info" >Portfolio</h2>
-		<p>Various Projects</p>
-		<!-- insert images -->
-	</div>
+	<!-- Content DIV-->
+	<div id="content">
+		<!-- About DIV-->
+		<div id="About">
 
-	<!-- Contact DIV-->
-	<div>
-		<h2 id="Portfolio" class="text-info">Contact Me</h2>
-
-
-		<form action="/submit-message" id="messageForm">
-			<input type="text" placeholder = "Name">
-			<input type="text" placeholder = "Phone Number">
-			<!--
-			<input type="text" placeholder = "Message">
-			-->
-			
-			<textarea name="message" form="messageForm">Enter Message Here...</textarea>
-			<button>Send</button>
-		</form>
-
-
-
-		<p class="text-justify">Want to get in touch with me? Be it to request more info about myself or my exeprience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.</p>
-
+			<h2>About</h2>
+			<p class="text-justify">
+			Senior Computer Engineering Student studying at City College of New York. Pratical knowledge in Programming Languages: C++, Java, Python and MatLab. Strong interest in Front-End Web Development. 
+			</p>
+			<p class="text-center">City College of New York - Computer Engineering Student - Class of 2018</p>
 		
-	</div>
+		</div>
+	
+
+		<!-- Portfolio DIV-->
+		<div>
+			<h2 id="Portfolio">Portfolio</h2>
+			<p>Various Projects</p>
+			<!-- insert images -->
+		</div>
+
+		<!-- Contact DIV-->
+		<div>
+			<h2 id="Contact">Contact Me</h2>
+
+			<form action="/submit-message" id="messageForm">
+				<input type="text" placeholder = "Name">
+				<input type="text" placeholder = "Phone Number">
+				<textarea name="message" form="messageForm">Enter Message Here...</textarea>
+				<button>Send</button>
+			</form>
+
+			<p>Want to get in touch with me? Be it to request more info about myself or my exeprience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.</p>
+
+		</div>
+	</div><!-- END of Content DIV-->
 
 	<footer>
 		<!-- Bottom of Page DIV-->
