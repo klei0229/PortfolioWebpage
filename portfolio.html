@@ -2,38 +2,46 @@
 
 <!-- links at top of page-->
 <div>
-<h1>About</h1>
-<h1>Portfolio</h1>
-<h1>Contact</h1>
+	<h1>About</h1>
+	<h1>Portfolio</h1>
+	<h1>Contact</h1>
 </div>
 
 <!-- About DIV-->
 <div>
-<h2>About</h2>
-<p>Front-End Developr and UX/UI designer, with pratical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture.</p>
-<p>Web Developer - User Experince Designer - Graphic Artist</p>
+	<h2>About</h2>
+	<p>Front-End Developr and UX/UI designer, with pratical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture.</p>
+	<p>Web Developer - User Experince Designer - Graphic Artist</p>
 </div>
 
 <!-- Portfolio DIV-->
 <div>
-<h2>Portfolio</h2>
-<p>Various Projects</p>
-<!-- insert images -->
+	<h2>Portfolio</h2>
+	<p>Various Projects</p>
+	<!-- insert images -->
 </div>
 
 <!-- Contact DIV-->
 <div>
-<h2>Contact Me</h2>
+	<h2>Contact Me</h2>
 
-<!-- TODO:
-add textfield: name, email address, phonenumber
--->
-<p>Name</p>
-<p>Phone Number</p>
-<p>Message</p>
-<p>Want to get in touch with me? Be it to request more info about myself or my exeprience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronoto... just feel free to drop me a line anytime.</p>
-<p>Send Button</p>
-<!-- add button -->
+
+	<form action="/submit-message" id="messageForm">
+		<input type="text" placeholder = "Name">
+		<input type="text" placeholder = "Phone Number">
+		<!--
+		<input type="text" placeholder = "Message">
+		-->
+		
+		<textarea name="message" form="messageForm">Enter Message Here...</textarea>
+		<button>Send</button>
+	</form>
+
+
+
+	<p>Want to get in touch with me? Be it to request more info about myself or my exeprience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.</p>
+
+	
 </div>
 
 <!-- Bottom of Page DIV-->
