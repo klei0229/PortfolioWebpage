@@ -1,47 +1,36 @@
-$grey:#686256;
-$orange:#c1502e;
-$blue:#587e76
-$brown:#a96e5b
-
 
 header{
-	width:100%;
-	background-color:#45acbc;
+	width:90%;
+	background-color:;
 	border:;
 	padding:1em;
-
+	display:block;
 
 }
 p{
-	font-size:26px;
-	color:#f1e3dd;
-	text-align:justify;
+	font-size:24px;
+	color:#565656;
+	
 }
 
 body{
 	font-family:"Palatino Linotype","Book Antiqua",Palatino,serif;
-	width: 85em;
-	margin-left:auto;
-	margin-right:auto;
-	background-color:#a79e84;
 }
 
 footer{
 
-
-
-
 }
 
 h1{
-	font-size:34px;
-	color:#f1e3dd;
-	text-align:right;
+
 }
+
 h2{
-	font-size:50px;
-	color:#f1e3dd;
-	text-align:center;
+
+}
+
+h3{
+	text-align:right;
 
 }
 
@@ -51,30 +40,43 @@ h2{
 
 #About{
 
-	background-color:#454140;
-	padding-left:4em;
-	padding-right:4em;
+	background-color:#d7cec7;
+	padding-left:28em;
+	padding-right:28em;
 	padding-top: 1em;
 	padding-bottom:1em;
-	border-left:solid #ad5734 35px;
+
+	left:4em;
+	
+	box-shadow:10px 10px 5px #888888;
 }
 #Portfolio{
 
-	background-color:#ad5734;
-	padding-left:4em;
-	padding-right:4em;
+	background-color:#d7cec7;
+	padding-left:28em;
+	padding-right:28em;
 	padding-top: 1em;
 	padding-bottom:1em;
-	border-right:solid #454140 35px;
+	
+	box-shadow:10px 10px 5px #888888;
 }
 
 #Contact{
-	background-color:#454140;
-	padding-left:4em;
-	padding-right:4em;
+	background-color:#d7cec7;
+	padding-left:28em;
+	padding-right:28em;
 	padding-top: 1em;
 	padding-bottom:1em;
 
-	border-left:solid #ad5734 35px;
+	
+	box-shadow:10px 10px 5px #888888;
 
+}
+
+#subsection{
+
+	background-color:white;
+	color:black;
+	margin-top:0;
+	margin-bottom:0;	
 }
