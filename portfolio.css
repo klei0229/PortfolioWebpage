@@ -3,37 +3,54 @@ header{
 	width:90%;
 	background-color:;
 	border:;
-	padding:1em;
-	display:block;
+
+	
+	padding-top: 2em;
+	padding-bottom:4em;
+
 	color:white;
 
 }
 p{
 	font-size:20px;
 	color:white;	
+	line-height: 1.75;
 }
 
 body{
 	font-family:"Helvetica","Book Antiqua",Palatino,serif;
 	background-color: #18121e;
-	line-height: 2;
+	
 	color:white;
 }
 
 footer{
 
+	width:90%;
+	background-color:;
+	border:;
+	padding-top: 2em;
+	padding-bottom:4em;
+	color:white;
+	margin: 15px 15px 15px 15px;
+
 }
 
 h1{
 	font-size:60px;
+	text-align: right
+
 }
 
 h2{
 	font-size:28px;
+	text-align: left
 
 }
 
 h3{
+	text-align:right;
+	font-size:28px;
 	
 
 }
@@ -81,17 +98,44 @@ img{
 	text-align:right;
 	border-radius 25%;
 	float:left;
-	margin: 0px 25px 25px 0px;
+	margin: 10px 15px 0px 0px;
 	border:;
 	box-shadow:5px 5px 2px black;
 }
 
+#image0{
+	border:;
+	margin: 60px 0px 125px 15px;
+}
 #image1{
-	border:solid;
-	margin: 15px 25px 175px 15px;
+	border:;
+	margin: 25px 0px 150px 15px;
 }
 
 #image2{
-	border:solid;
-	margin: 15px 25px 125px 15px;
+	border:;
+	margin: 25px 75px 125px 15px;
 }
+
+ul{
+	list-style-type: none;
+	text-align: right;
+
+	color: white;
+
+}
+a{
+
+	color:white;
+	float:right;
+	text-align: right;
+	margin: 1px;
+}
+
+#header_div{
+
+	position:fixed;
+}
+
+
+
