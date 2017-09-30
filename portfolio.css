@@ -1,3 +1,8 @@
+$grey:#686256;
+$orange:#c1502e;
+$blue:#587e76
+$brown:#a96e5b
+
 
 header{
 	width:100%;
@@ -10,6 +15,7 @@ header{
 p{
 	font-size:26px;
 	color:#f1e3dd;
+	text-align:justify;
 }
 
 body{
@@ -17,7 +23,7 @@ body{
 	width: 85em;
 	margin-left:auto;
 	margin-right:auto;
-	background-color:#7a3b2e;
+	background-color:#a79e84;
 }
 
 footer{
@@ -30,10 +36,12 @@ footer{
 h1{
 	font-size:34px;
 	color:#f1e3dd;
+	text-align:right;
 }
 h2{
 	font-size:50px;
 	color:#f1e3dd;
+	text-align:center;
 
 }
 
@@ -44,25 +52,29 @@ h2{
 #About{
 
 	background-color:#454140;
-	padding-left:6em;
-	padding-right:6em;
-	padding-top:1em;
+	padding-left:4em;
+	padding-right:4em;
+	padding-top: 1em;
 	padding-bottom:1em;
+	border-left:solid #ad5734 35px;
 }
 #Portfolio{
 
-	background-color:#bd5734;
+	background-color:#ad5734;
 	padding-left:4em;
 	padding-right:4em;
-	padding-top:4em;
-	padding-bottom:4em;
+	padding-top: 1em;
+	padding-bottom:1em;
+	border-right:solid #454140 35px;
 }
 
 #Contact{
-	background-color:#a79e84;
+	background-color:#454140;
 	padding-left:4em;
 	padding-right:4em;
-	padding-top:4em;
-	padding-bottom:4em;
+	padding-top: 1em;
+	padding-bottom:1em;
+
+	border-left:solid #ad5734 35px;
 
 }
